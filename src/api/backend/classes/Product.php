@@ -45,10 +45,7 @@ class Product
             $info = $sku .' has been added';
 
             Product::echoJson(
-                array(
-                    'success' => true,
-                    'info' => $info
-                )
+                array(   'info' => $info  )
             );
         }
 
@@ -67,10 +64,7 @@ class Product
         $info = count( $arr ) .' item(s) deleted';
 
         Product::echoJson(
-            array(
-                'success' => true,
-                'info' => $info
-            )
+            array(   'info' => $info  )
             );
 
     }

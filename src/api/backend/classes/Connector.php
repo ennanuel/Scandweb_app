@@ -11,10 +11,10 @@ class Connector
   {
     $this->connect = new mysqli
     (
-      'remotemysql.com',
-      '60bg0ZAeuK',
-      'twbu6a2kZz',
-      '60bg0ZAeuK'
+      'localhost',
+      'id19243169_ennanuel',
+      'k$]UOJ\WYF[TLK5b',
+      'id19243169_product'
     );
   }
 

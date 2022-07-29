@@ -1,6 +1,9 @@
 <?php
  include_once 'backend/autoload.php';
 
+
+ //The index.php deployed on 000webhost.com doesn't need all these headers because the .htaccess works there.
+ 
  header('Access-Control-Allow-Origin: *');
  header('Access-Control-Allow-Methods: GET, POST');
  header('Access-Control-Allow-Headers: Content-Type');

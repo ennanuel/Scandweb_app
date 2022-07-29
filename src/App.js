@@ -8,7 +8,7 @@ import Home from './pages/Home';
 const App = () => 
 {
 
-  const page = 'http://localhost:4300/src/api/';
+  const page = 'https://products-page.000webhostapp.com/';
 
   const [list, setList] = useState([]);
 

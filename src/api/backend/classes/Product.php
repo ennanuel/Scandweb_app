@@ -82,7 +82,7 @@ class Product
         $products = Product::productQuery()->fetchData(Product::$table_columns);
 
         $myArr = array(
-            '1' => new DVD,
+            '1' => new Dvd,
             '2' => new Book,
             '3' => new Furniture
         );

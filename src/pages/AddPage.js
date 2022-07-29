@@ -152,7 +152,7 @@ const AddPage = ({ submit }) =>
 
       <div className="form">
 
-        <Form onChange={ changeSelectOption } id='oroduct_form' type = { type } />
+        <Form onChange={ changeSelectOption } id='product_form' type = { type } />
 
         <p className="message">{ message }</p>
 

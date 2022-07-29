@@ -14,10 +14,10 @@ function Select({ onChange, type })
 
         <tr>
 
-            <td>    <Label for="select" labelText="Type Switcher" />    </td>
+            <td>    <Label for="productType" labelText="Type Switcher" />    </td>
 
             <td>
-                <select className="input" onChange={ onChange } name="type_id" id="select">
+                <select className="input" onChange={ onChange } name="type_id" id="productType">
 
                     <option value="">Type Switcher</option>
 

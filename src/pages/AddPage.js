@@ -88,7 +88,7 @@ const AddPage = ({ submit }) =>
   function changeSelectOption() 
   {
 
-      let selectValue = document.getElementById("select").value;
+      let selectValue = document.getElementById("productType").value;
 
       /* The object below deals with the different option values from select. I created 'dvd', 
       'book' and 'furniture' arrays in FormInput.js for this. */
@@ -152,7 +152,7 @@ const AddPage = ({ submit }) =>
 
       <div className="form">
 
-        <Form onChange={ changeSelectOption } id='addForm' type = { type } />
+        <Form onChange={ changeSelectOption } id='oroduct_form' type = { type } />
 
         <p className="message">{ message }</p>
 

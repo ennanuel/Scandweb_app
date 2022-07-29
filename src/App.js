@@ -77,7 +77,7 @@ const App = () =>
 
   const addProduct = () => 
   {
-    const add_form = document.getElementById('addForm');
+    const add_form = document.getElementById('product_form');
 
     const values = new FormData(add_form);
 

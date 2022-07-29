@@ -86,10 +86,12 @@ const App = () =>
     fetch( page , addRequest )
       .then( 
         res => res.json()
-        .then(  data => console.log(data) )
+        .then(  data => 
+          {
+            console.log(data);
+            setEffect(!effect);
+          } )
         )
-
-    setEffect(!effect);
 
   };
 
